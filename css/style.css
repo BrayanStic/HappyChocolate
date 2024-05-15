@@ -110,7 +110,7 @@
         font-size: 25px;
     }
 }
-.servicios{
+.products{
     background-color: #fffffe;
     padding-bottom: 150px;
     align-items: center;
@@ -123,7 +123,7 @@
     padding: 150px 0 80px 0;
 }
 
-.serviciosContables li{
+.cookie li{
     font-weight:500;
     font-style: italic;
     padding: 20px;
@@ -132,7 +132,7 @@
     margin: 35px 90px;
 }
 
-.serviciosContables li:hover{
+.cookie li:hover{
     border:solid;
     border-color: #feefe8;
     border-width: 5px;
@@ -144,7 +144,7 @@
     font-family: 'Abyssinica SIL';
 }
 @media all and (min-width: 761px) and (max-width:1024px){
-    .serviciosContables{
+    .cookie{
         width: 100%;
         display: flex;
         align-items: center;
@@ -152,7 +152,7 @@
         justify-content: space-around;
     }
     
-    .serviciosContables li{
+    .cookie li{
         width: 50%;
         align-items: center;
         text-align: center;
@@ -171,14 +171,14 @@
     
 }
 @media all and (min-width: 1025px){
-    .serviciosContables{
+    .cookie{
         display: flex;
         align-items: center;
         flex-direction: row;
         justify-content: space-around;
     }
     
-    .serviciosContables li{
+    .cookie li{
         align-items: center;
         text-align: center;
         font-weight:400;
@@ -314,5 +314,23 @@ footer{
 }
 .copyright{
     font-size: 12px;
+}
+
+.btn-agregar-carrito {
+    background-color: #683506d2; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor en forma de mano al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave al cambiar de color */
+    text-decoration: none;
+}
+.btn-agregar-carrito:hover {
+    background-color: #e68a00; /* Color de fondo al pasar el mouse por encima */
+}
+
+.btn-agregar-carrito:active {
+    transform: scale(0.95); /* Efecto de presión al hacer clic */
 }
 
